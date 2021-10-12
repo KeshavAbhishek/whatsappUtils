@@ -31,8 +31,8 @@ document.getElementById('generate').addEventListener('click',()=>{
 	document.getElementById('generate').innerText='G E N E R A T E D'
 	document.getElementById('generate').disabled='true'
 
-});
+	setTimeout(()=>{
+		window.reload();
+	}, 1500);
 
-document.getElementById('chat').addEventListener('mousedown',()=>{
-	window.reload()
 });
