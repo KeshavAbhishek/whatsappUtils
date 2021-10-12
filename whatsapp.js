@@ -27,4 +27,8 @@ document.getElementById('generate').addEventListener('click',()=>{
 	}
 
 	document.getElementById('chat').setAttribute('href',`https://wa.me/+${operableNumber}`);
+
+	document.getElementById('generate').innerText='G E N E R A T E D'
+	document.getElementById('generate').disabled='true'
+
 });
