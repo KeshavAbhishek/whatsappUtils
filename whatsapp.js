@@ -32,3 +32,7 @@ document.getElementById('generate').addEventListener('click',()=>{
 	document.getElementById('generate').disabled='true'
 
 });
+
+document.getElementById('chat').addEventListener('mousedown',()=>{
+	window.reload()
+});
